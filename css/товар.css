@@ -1,0 +1,101 @@
+.content_151{
+    padding: 120px;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+
+.content_pidvicon{
+   padding: 20px;
+   text-align: center;
+   font-size: 40px;
+   
+}
+
+@media (max-width: 636px){
+    .content_151{
+        padding: 80px;
+        text-align: center;
+        font-size: 20px;
+        
+    }
+  }
+  
+/* .......Карточка товару................................... */
+
+.product_content{
+   text-align: center;
+   
+}
+
+.product-item  {
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 2px solid #F5F5F5;
+    background: white;
+    font-family: "Open Sans";
+    transition: .3s ease-in;
+    
+    
+    display: inline-block;
+ }
+
+ 
+ @media (max-width: 1024px){
+   .product-item {
+      width: 320px;
+      text-align: center;
+      margin: 0 auto;
+      border-bottom: 2px solid #F5F5F5;
+      background: white;
+      font-family: "Open Sans";
+      transition: .3s ease-in;
+      
+      
+      display: inline-block;
+   }
+ }
+
+
+
+ 
+ .product-item:hover {
+    border-bottom: 2px solid #fc5a5a;
+ }
+ /* .product-item img {
+    
+    
+ } */
+ .product-list {
+    background: #ffffff;
+    padding: 15px 0;
+ }
+ .product-list h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #444444;
+    margin: 0 0 10px 0;
+ }
+ .price {
+    font-size: 20px;
+    color: #e42c2c;
+    display: block;
+    margin-bottom: 12px;
+ }
+ /* .button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 12px;
+    background: #ac2f2f;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;  
+    font-size: 12px;
+    line-height: 28px;
+    transition: .3s ease-in;
+ }
+ .product-item:hover .button {
+    background: #fc5a5a;
+ } */
+
